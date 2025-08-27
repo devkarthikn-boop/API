@@ -38,7 +38,7 @@ export default function UploadImage() {
 
   // Function to send data to API
   const uploadToServer = async (base64Data) => {
-    const res = await fetch("https://nextjs-xi-teal-85.vercel.app/api/post", {
+    const res = await fetch("/api/photoUpload", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: base64Data }),
