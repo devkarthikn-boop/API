@@ -13,7 +13,7 @@ export function OPTIONS() {
 
 cloudinary.config({
   cloud_name: "dxestxhi7",
-  api_key: ""683152633927512,
+  api_key: "683152633927512",
   api_secret:"VW_Crc7hRMRmmqw-ny-2ldHw5z8",
 });
 
