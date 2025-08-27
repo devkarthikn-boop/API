@@ -12,9 +12,9 @@ export function OPTIONS() {
 }
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: "dxestxhi7",
+  api_key: ""683152633927512,
+  api_secret:"VW_Crc7hRMRmmqw-ny-2ldHw5z8",
 });
 
 export async function POST(request) {
